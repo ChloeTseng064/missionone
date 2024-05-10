@@ -4,10 +4,8 @@
     list-style:none;
     box-sizing:border-box;
   }
-  body{
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-    font-family: "Noto Sans TC", "Noto Sans", sans-serif;
-  }
+
   main{
     display: flex;
     flex-wrap:wrap;
@@ -26,6 +24,7 @@
   }
   .work-text {
     padding: 16px 16px 0 16px;
+    font-family: "Noto Sans TC", "Noto Sans", sans-serif;
   }
   .work-text h2{
     font-weight: 700;

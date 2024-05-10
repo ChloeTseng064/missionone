@@ -3,9 +3,10 @@
     padding: 0;
     list-style:none;
     box-sizing:border-box;
+    font-family: "Noto Sans TC", "Noto Sans", sans-serif;
   }
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+  
   main{
     display: flex;
     flex-wrap:wrap;
@@ -21,10 +22,11 @@
   }
   .work img{
     border-radius: 8px;
+    border:1px solid #F1F1F1;
   }
   .work-text {
     padding: 16px 16px 0 16px;
-    font-family: "Noto Sans TC", "Noto Sans", sans-serif;
+    
   }
   .work-text h2{
     font-weight: 700;
@@ -34,8 +36,6 @@
     padding-bottom: 8px;
   }
   .work-text p{
-    font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
     color:#919191;
     padding-bottom: 24px;
@@ -48,8 +48,6 @@
     padding: 4px 12px 4px 12px;
     background-color: #F1F1F1;
     border-radius:16px;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 24px;
     color:#3B3B3B;
     margin-right:16px;
